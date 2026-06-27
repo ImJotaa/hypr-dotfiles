@@ -9,7 +9,7 @@ local closeWindowBind = hl.bind(mainMod .. " + Q", hl.dsp.window.close())
 
 -- Default programs keybinds --
 hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(default_programs.terminal))
-hl.bind(mainMod .. " + S", hl.dsp.exec_cmd(default_programs.menu))
+hl.bind(mainMod .. " + S", hl.dsp.exec_cmd(default_programs.menu .. " -show drun"))
 
 -- Window navigation keybinds --
 hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "l" }))

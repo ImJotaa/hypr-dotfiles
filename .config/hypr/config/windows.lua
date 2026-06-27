@@ -25,6 +25,6 @@ hl.window_rule({ match = { float = true }, size = {1200, 600} })
 
 -- Specific window sizes --
 hl.window_rule({ match = { class = "kitty" }, size = {1000, 600} })
-hl.window_rule({ match = { class = "firefox" }, size = {"70%", "85%"} })
+hl.window_rule({ match = { class = "zen" }, size = {1600, 900} })
 hl.window_rule({ match = { class = "dolphin" }, size = {1100, 700} })
 

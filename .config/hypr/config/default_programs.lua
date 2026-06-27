@@ -2,7 +2,7 @@ local default_programs	= {
 
 	terminal	= "kitty",
 	fileManager	= "dolphin",
-	menu		= "hyprlauncher"
+	menu		= "rofi"
 }
 
 return default_programs

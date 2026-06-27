@@ -1,3 +1,5 @@
 .config/mozilla
 .config/pulse
 .config/dconf
+.config/zen
+.config/mimeapps.config
