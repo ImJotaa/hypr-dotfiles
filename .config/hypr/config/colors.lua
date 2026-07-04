@@ -9,11 +9,11 @@ local colors = {
 	lime	= "rgb(E4FF30)",
 
 	-- Monochrome --
-	bg	= "rgb(1A1A22)",
-	surface	= "rgb(26262F)",
-	border	= "rgb(33333F)",
-	divider	= "rgb(4A4A58)",
-	muted	= "rgb(B0B0C0)"
+	gray_darkest	= "rgb(1A1A22)",
+	gray_darker	= "rgb(26262F)",
+	gray_dark	= "rgb(33333F)",
+	gray_mid	= "rgb(4A4A58)",
+	gray_light	= "rgb(B0B0C0)"
 }
 
 return colors

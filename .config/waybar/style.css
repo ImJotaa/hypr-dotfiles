@@ -1,9 +1,24 @@
+@define-color cyan    #03AED2;
+@define-color yellow  #F8DE22;
+@define-color orange  #F45B26;
+@define-color red     #D12052;
+@define-color purple  #5B23FF;
+@define-color lime    #E4FF30;
+
+@define-color gray_darkest      #1A1A22;
+@define-color gray_darker	#26262F;
+@define-color gray_dark		#33333F;
+@define-color gray_mid		#4A4A58;
+@define-color gray_light	#B0B0C0;
+
 * {
     font-size: 13px;
     min-height: 0;
 }
 
 window#waybar {
-    background: #1a1a22;   /* temporal, solo para VER la barra */
-    color: #ffffff;
+    background: alpha(@gray_mid, 0.95);
+    color: @gray_light;
+    border-radius: 10px;
 }
+
