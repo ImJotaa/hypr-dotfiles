@@ -32,6 +32,7 @@ hl.bind(mainMod .. " + mouse:274",	hl.dsp.window.drag())
 
 hl.bind(mainMod .. " + Return",		hl.dsp.exec_cmd(launchPrefix .. TERMINAL))
 hl.bind(mainMod .. " + B",		hl.dsp.exec_cmd(launchPrefix .. BROWSER))
+hl.bind(mainMod .. " + Space",		hl.dsp.exec_cmd(launchPrefix .. LAUNCHER))
 
 ---------------------------
 ---- HARDWARE CONTROLS ----
